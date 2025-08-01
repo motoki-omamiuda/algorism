@@ -4,3 +4,20 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+
+[[bin]]
+name = "add"
+path = "src/add.rs"
+
+[[bin]]
+name = "delete"
+path = "src/delete.rs"
+
+[[bin]]
+name = "list"
+path = "src/list.rs"
+
+[[bin]]
+name = "done"
+path = "src/done.rs"
